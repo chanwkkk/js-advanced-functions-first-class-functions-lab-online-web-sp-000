@@ -9,4 +9,4 @@ function returnLastTwoDrivers(drivers){
 }
 
 
-let selectingDrivers = [returnFirstTwoDrivers, returnLastTwoDrivers]
+let selectingDrivers = [returnFirstTwoDrivers(), returnLastTwoDrivers()]
