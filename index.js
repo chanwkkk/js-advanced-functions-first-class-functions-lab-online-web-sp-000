@@ -14,3 +14,11 @@ let selectingDrivers = [returnFirstTwoDrivers, returnLastTwoDrivers]
 function createFareMultiplier(int){
   return function(y){return y*int}
 }
+
+function fareDoubler(int){
+  return int*2
+}
+
+function fareTripler(int){
+  return int*3
+}
