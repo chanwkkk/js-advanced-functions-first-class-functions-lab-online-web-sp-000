@@ -7,3 +7,6 @@ function returnFirstTwoDrivers(drivers){
 function returnLastTwoDrivers(drivers){
   return drivers.slice(-2)
 }
+
+
+let selectingDrivers = [returnFirstTwoDrivers(), returnLastTwoDrivers()]
