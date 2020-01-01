@@ -12,5 +12,5 @@ function returnLastTwoDrivers(drivers){
 let selectingDrivers = [returnFirstTwoDrivers, returnLastTwoDrivers]
 
 function createFareMultiplier(int){
-  return function(y){9}
+  return function(y){return y*int}
 }
