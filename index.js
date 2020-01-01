@@ -22,3 +22,7 @@ function fareDoubler(int){
 function fareTripler(int){
   return int*3
 }
+
+function selectDifferentDrivers(array,func){
+  return func(array)
+}
